@@ -1,16 +1,48 @@
-## Hi there 👋
+# Hi, I'm Marcos 👋
 
-<!--
-**marfern2/marfern2** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Full-Stack Developer
 
-Here are some ideas to get you started:
+I'm a software developer focused on building backend systems with **Java and Spring Boot**, while also working across frontend, mobile, databases and infrastructure.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🌐 **Portfolio:** [marfern.dev](https://marfern.dev)
+
+## 🚀 Featured projects
+
+### Donit
+Full-stack task management platform built and evolved from my DAM final project.
+
+`Java` `Spring Boot` `Angular` `Kotlin` `PostgreSQL` `Docker` `Cloudflare`
+
+### DoNit — Final Degree Project
+Original version of Donit, developed as my DAM final project.
+
+`Spring Boot` `Android` `JavaFX` `PostgreSQL` `AWS`
+
+## 🛠 Tech stack
+
+Backend:
+Java · Spring Boot · Spring Security · REST APIs
+
+Frontend:
+Angular · TypeScript · HTML · CSS
+
+Mobile:
+Kotlin · Android · Jetpack Compose
+
+Data:
+PostgreSQL · SQL · JPA · Hibernate
+
+DevOps / Infrastructure:
+Docker · Linux · AWS · Cloudflare · Git · GitHub
+
+## 📚 Currently
+
+- Studying at 42 Madrid
+- Improving backend architecture and testing
+- Building and evolving Donit
+
+## 📫 Contact
+
+Portfolio: https://marfern.dev
+GitHub: https://github.com/marfern2
+LinkedIn: ...
