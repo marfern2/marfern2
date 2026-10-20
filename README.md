@@ -10,7 +10,8 @@
 
 I build full-stack applications with a focus on **Java and Spring Boot**: backend APIs, Angular frontends, Kotlin/Android clients, and deployment with PostgreSQL, Docker, Linux, AWS, and Cloudflare. I study at **42 Madrid**.
 
-**Currently:** 42 Madrid Common Core · backend architecture · testing · security · Playwright automation.
+> **Current focus**<br />
+> Java / Spring Boot backend architecture · native Android with Kotlin / Jetpack Compose · testing, security and deployment · 42 Madrid Common Core.
 
 ## GitHub dashboard
 
@@ -29,22 +30,28 @@ I build full-stack applications with a focus on **Java and Spring Boot**: backen
 
 <sub>Live public GitHub data · 84-day activity window · language share measures code bytes in public, non-fork repositories, not skill level. See the <a href="https://github.com/marfern2">GitHub profile</a> if an image is unavailable.</sub>
 
-## Tech stack
+## Core stack
+
+<p align="center">
+  <code>Java</code> <code>Spring Boot</code> <code>Kotlin</code> <code>Android</code> <code>Jetpack Compose</code> <code>Angular</code> <code>PostgreSQL</code> <code>Docker</code> <code>Git / GitHub</code>
+</p>
+
+## Tech toolkit
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,spring,hibernate,angular,ts,html,css,kotlin,androidstudio,postgres,docker,linux,aws,cloudflare,git,github,githubactions&amp;theme=dark&amp;perline=9" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,spring,hibernate,angular,ts,html,css,kotlin,androidstudio,postgres,docker,linux,aws,cloudflare,git,github,githubactions&amp;theme=light&amp;perline=9" />
-    <img src="https://skillicons.dev/icons?i=java,spring,hibernate,angular,ts,html,css,kotlin,androidstudio,postgres,docker,linux,aws,cloudflare,git,github,githubactions&amp;theme=light&amp;perline=9" width="440" alt="Icons for Java, Spring, Hibernate, Angular, TypeScript, HTML, CSS, Kotlin, Android Studio, PostgreSQL, Docker, Linux, AWS, Cloudflare, Git, GitHub and GitHub Actions." />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,spring,hibernate,kotlin,androidstudio,angular,ts,html,css,postgres,docker,linux,aws,cloudflare,git,github,githubactions&amp;theme=dark&amp;perline=9" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,spring,hibernate,kotlin,androidstudio,angular,ts,html,css,postgres,docker,linux,aws,cloudflare,git,github,githubactions&amp;theme=light&amp;perline=9" />
+    <img src="https://skillicons.dev/icons?i=java,spring,hibernate,kotlin,androidstudio,angular,ts,html,css,postgres,docker,linux,aws,cloudflare,git,github,githubactions&amp;theme=light&amp;perline=9" width="440" alt="Backend: Java, Spring and Hibernate; mobile: Kotlin and Android Studio; frontend: Angular, TypeScript, HTML and CSS; data: PostgreSQL; infrastructure and tools: Docker, Linux, AWS, Cloudflare, Git, GitHub and GitHub Actions." />
   </picture>
 </p>
 
 **Backend** · Java, Spring Boot, Spring Security, JPA/Hibernate<br />
-**Frontend** · Angular, TypeScript, HTML, CSS<br />
 **Mobile** · Kotlin, Android, Jetpack Compose<br />
+**Frontend** · Angular, TypeScript, HTML, CSS<br />
 **Data** · PostgreSQL, SQL<br />
-**Infrastructure** · Docker, Linux, AWS, Cloudflare<br />
-**Tools** · Git, GitHub, GitHub Actions, Flyway, Playwright
+**DevOps / Infra** · Docker, Linux, AWS, Cloudflare, GitHub Actions<br />
+**Tools** · Git, GitHub, Flyway, Playwright
 
 ## Featured projects
 
