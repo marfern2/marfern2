@@ -1,4 +1,4 @@
-name: Profile visuals
+name: Profile dashboard and snake
 
 on:
   workflow_dispatch:
@@ -23,7 +23,7 @@ jobs:
       - name: Check out profile
         uses: actions/checkout@v4
 
-      - name: Generate player stats and activity graph
+      - name: Generate dashboard and language cards
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: python3 .github/scripts/profile_assets.py
