@@ -33,25 +33,20 @@ I build full-stack applications with a focus on **Java and Spring Boot**: backen
 ## Core stack
 
 <p align="center">
-  <code>Java</code> <code>Spring Boot</code> <code>Kotlin</code> <code>Android</code> <code>Jetpack Compose</code> <code>Angular</code> <code>PostgreSQL</code> <code>Docker</code> <code>Git / GitHub</code>
-</p>
-
-## Tech toolkit
-
-<p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,spring,hibernate,kotlin,androidstudio,angular,ts,html,css,postgres,docker,linux,aws,cloudflare,git,github,githubactions&amp;theme=dark&amp;perline=9" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,spring,hibernate,kotlin,androidstudio,angular,ts,html,css,postgres,docker,linux,aws,cloudflare,git,github,githubactions&amp;theme=light&amp;perline=9" />
-    <img src="https://skillicons.dev/icons?i=java,spring,hibernate,kotlin,androidstudio,angular,ts,html,css,postgres,docker,linux,aws,cloudflare,git,github,githubactions&amp;theme=light&amp;perline=9" width="440" alt="Backend: Java, Spring and Hibernate; mobile: Kotlin and Android Studio; frontend: Angular, TypeScript, HTML and CSS; data: PostgreSQL; infrastructure and tools: Docker, Linux, AWS, Cloudflare, Git, GitHub and GitHub Actions." />
+    <source media="(max-width: 600px)" srcset="assets/core-stack-mobile.svg" />
+    <img src="assets/core-stack.svg" width="100%" alt="Core stack: Java, Spring Boot, Kotlin, Android, Jetpack Compose, Angular, PostgreSQL and Docker." />
   </picture>
 </p>
 
-**Backend** · Java, Spring Boot, Spring Security, JPA/Hibernate<br />
-**Mobile** · Kotlin, Android, Jetpack Compose<br />
-**Frontend** · Angular, TypeScript, HTML, CSS<br />
-**Data** · PostgreSQL, SQL<br />
-**DevOps / Infra** · Docker, Linux, AWS, Cloudflare, GitHub Actions<br />
-**Tools** · Git, GitHub, Flyway, Playwright
+## Technologies & tools
+
+**Backend** · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="18" height="18" alt="" /> Java · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="18" height="18" alt="" /> Spring Boot · Spring Security · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hibernate/hibernate-original.svg" width="18" height="18" alt="" /> JPA / Hibernate · Flyway
+**Frontend** · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" width="18" height="18" alt="" /> Angular · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="18" height="18" alt="" /> TypeScript · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="18" height="18" alt="" /> HTML · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="18" height="18" alt="" /> CSS
+**Mobile** · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" width="18" height="18" alt="" /> Kotlin · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg" width="18" height="18" alt="" /> Android · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jetpackcompose/jetpackcompose-original.svg" width="18" height="18" alt="" /> Jetpack Compose
+**Data** · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="18" height="18" alt="" /> PostgreSQL · SQL
+**Infrastructure** · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="18" height="18" alt="" /> Docker · Linux · AWS · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original.svg" width="18" height="18" alt="" /> Cloudflare
+**Tools** · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="18" height="18" alt="" /> Git · GitHub · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" width="18" height="18" alt="" /> GitHub Actions · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg" width="18" height="18" alt="" /> Playwright
 
 ## Featured projects
 

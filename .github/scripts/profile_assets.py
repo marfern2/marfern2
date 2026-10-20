@@ -25,6 +25,12 @@ THEMES = {
         "text": "#1f2328", "muted": "#57606a", "green": "#1a7f37", "blue": "#0969da",
     },
 }
+LANGUAGE_COLORS = {
+    "Java": "#b07219", "TypeScript": "#3178c6", "Kotlin": "#925ff0",
+    "HTML": "#d65a2a", "CSS": "#6f7cbd", "Python": "#3572a5",
+    "JavaScript": "#b8a400", "C": "#697483", "C++": "#c75580",
+    "Shell": "#3b8f67",
+}
 
 
 def get_json(url, payload=None):
@@ -153,24 +159,39 @@ def render_languages(languages, theme):
     c = THEMES[theme]
     total = sum(languages.values())
     parts = [
-        label(18, 28, "Languages in public repos", 17, c["text"], 650),
-        label(18, 46, "Non-fork repos · GitHub Linguist bytes", 11, c["muted"]),
+        label(18, 28, "Most used languages in public repositories", 14, c["text"], 650),
+        label(18, 47, "Non-fork repos · GitHub Linguist byte share", 11.5, c["muted"]),
+        f'<path d="M18 58H372" stroke="{c["border"]}"/>',
+        '<defs><clipPath id="language-bar-clip">'
+        '<rect x="18" y="70" width="354" height="18" rx="6"/>'
+        '</clipPath></defs>',
+        f'<rect x="18" y="70" width="354" height="18" rx="6" fill="{c["panel"]}"/>',
     ]
     if total:
         top = languages.most_common(5)
         other = total - sum(size for _, size in top)
         if other:
             top.append(("Other", other))
+        cumulative = 0
         for index, (name, size) in enumerate(top):
-            y = 70 + index * 18
+            x = 18 + (index % 2) * 182
+            y = 116 + (index // 2) * 21
             share = size / total
-            parts.append(label(18, y, name, 11, c["text"], 500))
-            parts.append(f'<rect x="132" y="{y - 8}" width="186" height="7" rx="3" fill="{c["panel"]}"/>')
-            parts.append(f'<rect x="132" y="{y - 8}" width="{max(2, round(186 * share))}" height="7" rx="3" fill="{c["blue"]}"/>')
-            parts.append(label(372, y, f"{share:.1%}", 10, c["muted"], anchor="end"))
+            color = c["muted"] if name == "Other" else LANGUAGE_COLORS.get(name, c["blue"])
+            left = 18 + round(354 * cumulative / total)
+            cumulative += size
+            right = 18 + round(354 * cumulative / total)
+            if right > left:
+                parts.append(
+                    f'<rect x="{left}" y="70" width="{right - left}" height="18" '
+                    f'fill="{color}" clip-path="url(#language-bar-clip)"/>'
+                )
+            parts.append(f'<rect x="{x}" y="{y - 9}" width="9" height="9" rx="2" fill="{color}"/>')
+            parts.append(label(x + 15, y, name, 11.5, c["text"], 500))
+            parts.append(label(x + 170, y, f"{share:.1%}", 11, c["muted"], anchor="end"))
     else:
-        parts.append(label(18, 92, "No language data in public repositories", 12, c["muted"]))
-    parts.append(label(18, 179, "Code share, not a skill rating", 10, c["muted"]))
+        parts.append(label(18, 116, "No language data in public repositories", 12, c["muted"]))
+    parts.append(label(18, 179, "Repository code share, not a skill rating", 11, c["muted"]))
     return canvas("Most used languages in public non-fork repositories", "".join(parts), theme)
 
 
