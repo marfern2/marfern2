@@ -1,0 +1,44 @@
+name: Profile visuals
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * *"
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-visuals
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@v4
+
+      - name: Generate player stats and activity graph
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/profile_assets.py
+
+      - name: Generate contribution snakes
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: marfern2
+          outputs: |
+            dist/github-contribution-grid-snake.svg?palette=github-light
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Publish generated SVGs
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ github.token }}
+          publish_branch: output
+          publish_dir: ./dist

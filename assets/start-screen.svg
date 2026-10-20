@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="240" viewBox="0 0 860 240" role="img" aria-labelledby="title desc">
+  <title id="title">Marcos Fernández Espeja — Full-Stack Developer</title>
+  <desc id="desc">Pantalla de inicio retro con Java, Spring Boot, Angular y Kotlin.</desc>
+  <rect width="860" height="240" fill="#171b18"/>
+  <path d="M0 32H860M0 208H860" stroke="#3d5545" stroke-width="1"/>
+  <path d="M0 64H860M0 96H860M0 128H860M0 160H860M0 192H860M32 0V240M64 0V240M96 0V240M128 0V240M160 0V240M192 0V240M224 0V240M256 0V240M288 0V240M320 0V240M352 0V240M384 0V240M416 0V240M448 0V240M480 0V240M512 0V240M544 0V240M576 0V240M608 0V240M640 0V240M672 0V240M704 0V240M736 0V240M768 0V240M800 0V240M832 0V240" stroke="#263229" stroke-width="1"/>
+  <path d="M16 16H844V224H16Z" fill="#171b18" stroke="#f7f2e7" stroke-width="3"/>
+  <path d="M16 16H844V44H16Z" fill="#a9c5ae"/>
+  <path d="M16 44H844" stroke="#f7f2e7" stroke-width="3"/>
+  <g shape-rendering="crispEdges">
+    <rect x="30" y="26" width="9" height="9" fill="#171b18"/>
+    <rect x="45" y="26" width="9" height="9" fill="#ef6738"/>
+    <rect x="60" y="26" width="9" height="9" fill="#f3cb54"/>
+    <path d="M36 66h42v8h8v8h8v16h-8v8h-8v8H36v-8h-8V74h8z" fill="#315d4a"/>
+    <path d="M44 78h8v8h-8zm20 0h8v8h-8z" fill="#f7f2e7"/>
+    <path d="M44 98h28v5H44z" fill="#ef6738"/>
+    <path d="M36 138h58v8H36zm0 18h46v8H36zm0 18h66v8H36z" fill="#a9c5ae"/>
+    <path d="M766 72h42v8h8v42h-8v8h-42v-8h-8V80h8z" fill="#315d4a"/>
+    <path d="M770 92h34v8h-34zm13-12h8v32h-8z" fill="#f3cb54"/>
+    <path d="M758 158h56v8h-56zm0 18h44v8h-44z" fill="#a9c5ae"/>
+    <path d="M116 202h628" stroke="#ef6738" stroke-width="4"/>
+    <path d="M116 198h15v8h-15zm613 0h15v8h-15z" fill="#f3cb54"/>
+  </g>
+  <g font-family="'Courier New', monospace" text-anchor="middle">
+    <text x="430" y="35" font-size="14" font-weight="700" fill="#171b18">PLAYER SELECT / MARFERN2</text>
+    <text x="430" y="91" font-size="36" font-weight="700" fill="#f7f2e7" textLength="590" lengthAdjust="spacingAndGlyphs">MARCOS FERNÁNDEZ ESPEJA</text>
+    <text x="430" y="131" font-size="27" font-weight="700" fill="#ef6738">FULL-STACK DEVELOPER</text>
+    <text x="430" y="168" font-size="23" font-weight="700" fill="#a9c5ae">JAVA · SPRING BOOT · ANGULAR · KOTLIN</text>
+  </g>
+</svg>
